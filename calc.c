@@ -10,8 +10,6 @@ int main(int argc, char const *argv[])
 
     int menuchoice;
 
-    printf("\nWelcome To The Ultimate CalculatorTM\n");
-    printf("\nWhat is your selection for today?\n");
     printf("\nAdd\n");
     printf("\nSubstract\n");
     printf("\nMultiply\n");
@@ -54,7 +52,7 @@ int main(int argc, char const *argv[])
         result = num1/ num2;
         printf("\nThe result is: %f\n\n" , result);
         break;
-    default:
+         default:
         break;
     }
 }
